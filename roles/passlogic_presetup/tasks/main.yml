@@ -1,0 +1,8 @@
+---
+# tasks file for passlogic_presetup
+- name: install passlogic packages
+  package:
+    name: "{{ item }}"
+    state: present
+    enablerepo: "{{ (ansible_distribution == 'RedHat') | ternary('rhel-7-server-optional-rpms','') }}"
+  with_items: "{{ passlogic_packages }}"

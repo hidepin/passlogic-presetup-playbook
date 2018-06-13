@@ -1,0 +1,36 @@
+---
+# defaults file for passlogic_presetup
+passlogic_packages:
+  - sed
+  - sudo
+  - gnupg2
+  - rpm
+  - perl
+  - openssl
+  - openssh-clients
+  - tmpwatch
+  - httpd
+  - mod_ssl
+  - chrony
+  - zip
+  - unzip
+  - crontabs
+  - postfix
+  - php
+  - php-gd
+  - php-ldap
+  - php-pgsql
+  - php-mbstring
+  - php-process
+  - net-snmp-utils
+  - curl
+  - libtool-ltdl
+  - libxslt
+  - rsync
+  - mailx
+  - apr-util-pgsql
+  - xmlsec1
+  - xmlsec1-openssl
+  - freeradius
+  - net-tools
+  - tncfhh-libs

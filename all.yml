@@ -3,6 +3,7 @@
 - hosts: all
   roles:
     - { role: common, when: "ansible_os_family == 'RedHat'" }
+    - { role: passlogic_presetup, when: "ansible_os_family == 'RedHat'" }
 
   environment:
     "{{ proxy_env }}"
